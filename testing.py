@@ -11,15 +11,13 @@ data=response.json()
 @tree.command(
     description="information for the acid arrow spell",
     name="acidarrow",
-    guild=discord.Object(id=872269394951143454)
-)
 async def acid_arrow(interaction):
     await interaction.response.send_message(data["desc"][0])
 
 
 @client.event
 async def on_ready():
-    await tree.sync(guild=discord.Object(id=872269394951143454))
+    await tree.sync(guild=discord.Object(id=)
     print("This is somewhere to be. This is all you have, but it's still something. Streets and sodium lights. The sky, the world. You're still alive.")
 
 
