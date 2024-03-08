@@ -1,0 +1,5 @@
+GREETING = "Subdue the regret. Dust yourself off, proceed. You'll get it in the next life, where you don't make mistakes. Do what you can with this one, while you're alive.."
+COUNT_CLASSES = "The number of classes is: {}"
+LIST_CLASSES = "List all classes: {}"
+COUNT_SUBCLASSES = "The number of subclasses is: {}"
+LIST_SUBCLASSES = "List all subclasses: {}"
